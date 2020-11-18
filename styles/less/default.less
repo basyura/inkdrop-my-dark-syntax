@@ -29,7 +29,8 @@
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @base06;
+    border-left: 2px solid white;
+    background: rgba(255, 147, 0, 0.7); // orange
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
@@ -71,6 +72,11 @@
   /* All 'dem swatches */
 
   .CodeMirror {
+    .cm-animate-fat-cursor {
+      color: black;
+      background-color: rgba(255, 147, 0, 0.5); // orange
+      animation: none;
+    }
     .cm-atom,
     .cm-formatting-list.cm-variable-3,
     .cm-string,
