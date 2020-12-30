@@ -15,6 +15,7 @@
     background-color: transparent;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
+
   .CodeMirror-linenumber {
     // Line numbers in the gutter
     color: @base06;
@@ -77,6 +78,11 @@
       background-color: rgba(255, 147, 0, 0.5); // orange
       animation: none;
     }
+
+    .CodeMirror-placeholder {
+      display: none;
+    }
+
     //.cm-formatting-list.cm-variable-3,
     .cm-atom,
     .cm-string,
